@@ -4,10 +4,10 @@
 <cfparam name="smtpTLS" default="false">
 
 <cfset smtpSettings = {
-	'server': "mail.smtp2go.com",
-	'port': "2525",
-	'username': "tmtoursonline",
-	'password': "cndwZ3l6dmx3cHhr"
+	'server': "",
+	'port': "",
+	'username': "",
+	'password': ""
 }>
 <cfif form.send>
 	<cftry>
